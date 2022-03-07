@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_services",
+  "info": {
+    "name": "Services",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "service": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.service"
+    }
+  }
+}

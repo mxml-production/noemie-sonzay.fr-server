@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_projects",
+  "info": {
+    "name": "Projects",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "projects": {
+      "collection": "project"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "name": "button",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "field": {
+      "type": "enumeration",
+      "enum": [
+        "file",
+        "link"
+      ],
+      "required": true
+    },
+    "cv": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
