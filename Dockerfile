@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY ./package*.json ./
 
-RUN yarn install --network-timeout 1000000
+RUN npm i
 
 COPY . .
 
-CMD ["yarn", "develop"]
+CMD ["npm", "run", "develop"]
